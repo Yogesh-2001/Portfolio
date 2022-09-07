@@ -1,0 +1,62 @@
+body{
+box-sizing: border-box;
+margin: 0px;
+padding:0px;
+}
+
+.outer-box{
+  background-color: rgba(245, 245, 220, 0.251);
+  padding:20px 0px;
+}
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 100vh;
+  color:white !important;
+  padding: 20px;
+}
+
+.cards .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+}
+.cards .card h6{
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+/* slider css  */
+
+.slider img{
+  width: 100%;
+  height: 95vh;
+}
+
+/* feedback form */
+
+.feedback form input{
+width: 100%;
+}
+
+.modal-id{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height:50px;
+  border-radius: 50%;
+  background-color: rgb(219, 68, 219);
+  color:white !important;
+  margin: auto;
+}
+.modal-box{
+  padding: 10px;
+  width:400px;
+  box-shadow: 2px 2px 5px rgb(227, 117, 117);
+  background-color:white;
+  color:black;
+}
+
